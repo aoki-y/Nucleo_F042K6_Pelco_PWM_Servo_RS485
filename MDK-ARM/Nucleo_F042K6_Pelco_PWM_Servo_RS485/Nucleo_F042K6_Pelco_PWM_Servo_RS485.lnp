@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"nucleo_f042k6_pelco_pwm_servo_rs485\startup_stm32f042x6.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\main.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_it.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_msp.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_tim.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_tim_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_rcc.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_rcc_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_i2c.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_i2c_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_gpio.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_dma.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_cortex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_pwr.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_pwr_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_flash.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_flash_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_exti.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_uart.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\stm32f0xx_hal_uart_ex.o"
+"nucleo_f042k6_pelco_pwm_servo_rs485\system_stm32f0xx.o"
+--strict --scatter "Nucleo_F042K6_Pelco_PWM_Servo_RS485\Nucleo_F042K6_Pelco_PWM_Servo_RS485.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Nucleo_F042K6_Pelco_PWM_Servo_RS485.map" -o Nucleo_F042K6_Pelco_PWM_Servo_RS485\Nucleo_F042K6_Pelco_PWM_Servo_RS485.axf
