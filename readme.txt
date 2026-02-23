@@ -1,0 +1,2 @@
+Borad:Nucleo_F042K6
+MCU:STM32F042K6
